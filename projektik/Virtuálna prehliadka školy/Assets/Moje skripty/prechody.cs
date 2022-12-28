@@ -3,13 +3,17 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class Entrance : MonoBehaviour
+public class prechody : MonoBehaviour
 {
 
     public string SceneName;
 
 
-    private void OnMouseDown() => SceneManager.LoadScene(SceneName);
+private void OnMouseDown()
+{
 
+    SceneManager.LoadScene(SceneName);
+
+}
 
 }
