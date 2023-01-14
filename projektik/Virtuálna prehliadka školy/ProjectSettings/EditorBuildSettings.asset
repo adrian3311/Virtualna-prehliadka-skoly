@@ -59,28 +59,28 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/17_velkaSala.unity
     guid: 626fe209a9f6707428e0c7fcc625965e
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/18_satnePrax.unity
     guid: 838caa7bc62f25e4580e32502eb78d95
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/19_ucebne600.unity
     guid: ce86472c3fad7334497b511a2d73edae
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/20_prax.unity
     guid: e55d2b6e2e085f843923984a4e50714d
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/21_700-600.unity
     guid: 88e6112b3b570c144887d95aab64074f
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/22_podkrovie.unity
     guid: 2a5cf16882b7547448aeecb687178fa6
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/23_schodPodkrovie.unity
     guid: 2f5cc70d1558fc14896963ea90f0455f
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/24_1000ky.unity
     guid: c92d0961bb2f0184ab1338eb777bd74d
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/25_chod1000.unity
     guid: 1cb7b6f1d84c2614ba822800c1d33ac5
   - enabled: 0
