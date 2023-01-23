@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 4671517252124252537}
   - component: {fileID: 4671517252124252536}
   - component: {fileID: 4671517252124252543}
-  - component: {fileID: 4671517252124252540}
+  - component: {fileID: 8587328054812384186}
   m_Layer: 0
   m_Name: Entrance
   m_TagString: Untagged
@@ -99,7 +99,7 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.32, y: 0.32000005, z: 0.20000003}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &4671517252124252540
+--- !u!114 &8587328054812384186
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -108,7 +108,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 4671517252124252539}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 027b8ada471b9b44c94a1f076a308be4, type: 3}
+  m_Script: {fileID: 11500000, guid: 998911a98788c9e49acc92122e3c8939, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   SceneName: 
+  cameraRotation: 0

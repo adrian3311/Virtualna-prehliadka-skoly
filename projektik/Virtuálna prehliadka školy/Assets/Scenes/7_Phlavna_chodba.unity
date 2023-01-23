@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.22441849, g: 0.22315188, b: 0.21885347, a: 1}
+  m_IndirectSpecularColor: {r: 0.22451463, g: 0.22319566, b: 0.21886393, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -190,28 +190,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Entrance
       objectReference: {fileID: 0}
+    - target: {fileID: 8587328054812384186, guid: 21a7a33a7896746419895ae82faf6774,
+        type: 3}
+      propertyPath: SceneName
+      value: 6_satne_naTSV
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 4671517252124252540, guid: 21a7a33a7896746419895ae82faf6774, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 21a7a33a7896746419895ae82faf6774, type: 3}
---- !u!1 &278596286 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 4671517252124252539, guid: 21a7a33a7896746419895ae82faf6774,
-    type: 3}
-  m_PrefabInstance: {fileID: 278596285}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &278596287
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 278596286}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 998911a98788c9e49acc92122e3c8939, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  SceneName: 6_satne_naTSV
 --- !u!1001 &435061991
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -294,28 +280,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Entrance (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 8587328054812384186, guid: 21a7a33a7896746419895ae82faf6774,
+        type: 3}
+      propertyPath: SceneName
+      value: 8_vestibul
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 4671517252124252540, guid: 21a7a33a7896746419895ae82faf6774, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 21a7a33a7896746419895ae82faf6774, type: 3}
---- !u!1 &435061992 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 4671517252124252539, guid: 21a7a33a7896746419895ae82faf6774,
-    type: 3}
-  m_PrefabInstance: {fileID: 435061991}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &435061993
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 435061992}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 998911a98788c9e49acc92122e3c8939, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  SceneName: 8_vestibul
 --- !u!1001 &650717123
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -582,25 +554,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Entrance (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 8587328054812384186, guid: 21a7a33a7896746419895ae82faf6774,
+        type: 3}
+      propertyPath: SceneName
+      value: 48_200-100
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 4671517252124252540, guid: 21a7a33a7896746419895ae82faf6774, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 21a7a33a7896746419895ae82faf6774, type: 3}
---- !u!1 &1130058838 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 4671517252124252539, guid: 21a7a33a7896746419895ae82faf6774,
-    type: 3}
-  m_PrefabInstance: {fileID: 1130058837}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1130058839
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1130058838}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 998911a98788c9e49acc92122e3c8939, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  SceneName: 48_200-100

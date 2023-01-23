@@ -151,5 +151,80 @@ EditorBuildSettings:
     guid: fb1085d88a22ebb45808ed28d48057a9
   - enabled: 0
     path: Assets/Scenes/48_200-100.unity
+    guid: c317874f7222a5142b2eaef1f69ac4c4
+  - enabled: 0
+    path: Assets/Scenes/49_dielneSutek.unity
+    guid: f41fbf3fef005c544a8a60786df44ea5
+  - enabled: 0
+    path: Assets/Scenes/50_dielneSrenkel.unity
+    guid: 21c6e84999075e349a0c432e8193230f
+  - enabled: 0
+    path: Assets/Scenes/51_dielneDragun.unity
+    guid: cb3f63b3a00041f4093760979cfd448a
+  - enabled: 0
+    path: Assets/Scenes/52_dielnePalica.unity
+    guid: 071415cd2f428494281a41f8f67631a4
+  - enabled: 0
+    path: Assets/Scenes/53_dielnePalica2.unity
+    guid: d701419170db0d64795955887127cf89
+  - enabled: 0
+    path: Assets/Scenes/54_dielna.unity
+    guid: aa6a44ca3a70959408919680a18777cc
+  - enabled: 0
+    path: Assets/Scenes/55_ucebna900.unity
+    guid: 59486f6f72498804eb2192d331690885
+  - enabled: 0
+    path: Assets/Scenes/56_ucebnaSovik.unity
+    guid: dc6b52d6d92a44342bd66a8573e6ea7c
+  - enabled: 0
+    path: Assets/Scenes/57_900vzadu.unity
+    guid: 2ceaf9168d01d3e42bfcb49d11b720fc
+  - enabled: 0
+    path: Assets/Scenes/58_ucebnaD.unity
+    guid: dd76915b9a492a648bdc9bcc5c1d9e66
+  - enabled: 0
+    path: Assets/Scenes/59_800P.unity
+    guid: 658289007d27fd949beb642f940d85da
+  - enabled: 0
+    path: Assets/Scenes/60_800oprotiP.unity
+    guid: 08c953b11279fdc448530fb8cc79ca40
+  - enabled: 0
+    path: Assets/Scenes/61_800server.unity
+    guid: cb018e0893f810f46a89a12f1c0c66f0
+  - enabled: 0
+    path: Assets/Scenes/62_ucebnaMedzi.unity
+    guid: fe4205bcaadede048a7488792ea8314c
+  - enabled: 0
+    path: Assets/Scenes/63_700nova.unity
+    guid: f82aea4bdf4a00542bf3bf1e7f3d4aac
+  - enabled: 0
+    path: Assets/Scenes/64_TeiTV.unity
+    guid: ac02cc76d7543fd4c8a5e9f2305f431a
+  - enabled: 0
+    path: Assets/Scenes/65_TeiM.unity
+    guid: c32bbcb4c44d10f47959b4321d347e32
+  - enabled: 0
+    path: Assets/Scenes/66_200Druska.unity
+    guid: 30d65b70981e3d54ab6dc0a05cc57e0f
+  - enabled: 0
+    path: Assets/Scenes/67_podkrovie1.unity
+    guid: 346af7f2da60cb040a8797e4941a2937
+  - enabled: 0
+    path: Assets/Scenes/68_podkrovie2.unity
+    guid: 1c018e0a8e895df43af4dad16867b8bf
+  - enabled: 0
+    path: Assets/Scenes/69_ucebnaIv.unity
+    guid: 44d8cfc4b34d88e4088cdc858a1d9e9e
+  - enabled: 0
+    path: Assets/Scenes/70_malaTel.unity
     guid: 95f4377625a530a44b770786380613e3
+  - enabled: 0
+    path: Assets/Scenes/71_schodPosilka.unity
+    guid: ea2b8f0010107ad4aabb97a3fb08afa0
+  - enabled: 0
+    path: Assets/Scenes/72_posilka.unity
+    guid: 4d8b74cd17b0f0c47ba89c40c4547f62
+  - enabled: 0
+    path: Assets/Scenes/73_velkaTel.unity
+    guid: a4dd46ded8a05344b94aeb66ca1e70fe
   m_configObjects: {}

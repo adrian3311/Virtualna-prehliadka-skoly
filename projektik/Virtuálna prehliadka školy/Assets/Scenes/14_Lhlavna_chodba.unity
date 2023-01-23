@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.325362, g: 0.25403732, b: 0.20829284, a: 1}
+  m_IndirectSpecularColor: {r: 0.325303, g: 0.254124, b: 0.20834391, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -320,28 +320,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Entrance
       objectReference: {fileID: 0}
+    - target: {fileID: 8587328054812384186, guid: 21a7a33a7896746419895ae82faf6774,
+        type: 3}
+      propertyPath: SceneName
+      value: 8_vestibul
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 4671517252124252540, guid: 21a7a33a7896746419895ae82faf6774, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 21a7a33a7896746419895ae82faf6774, type: 3}
---- !u!1 &311619516 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 4671517252124252539, guid: 21a7a33a7896746419895ae82faf6774,
-    type: 3}
-  m_PrefabInstance: {fileID: 311619515}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &311619517
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 311619516}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 998911a98788c9e49acc92122e3c8939, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  SceneName: 8_vestibul
 --- !u!1001 &534563800
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -424,28 +410,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Entrance (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 8587328054812384186, guid: 21a7a33a7896746419895ae82faf6774,
+        type: 3}
+      propertyPath: SceneName
+      value: 19_ucebne600
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 4671517252124252540, guid: 21a7a33a7896746419895ae82faf6774, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 21a7a33a7896746419895ae82faf6774, type: 3}
---- !u!1 &534563801 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 4671517252124252539, guid: 21a7a33a7896746419895ae82faf6774,
-    type: 3}
-  m_PrefabInstance: {fileID: 534563800}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &534563802
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 534563801}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 998911a98788c9e49acc92122e3c8939, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  SceneName: 19_ucebne600
 --- !u!1001 &538526626
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -597,28 +569,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Entrance (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 8587328054812384186, guid: 21a7a33a7896746419895ae82faf6774,
+        type: 3}
+      propertyPath: SceneName
+      value: 15_smerKniznica
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 4671517252124252540, guid: 21a7a33a7896746419895ae82faf6774, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 21a7a33a7896746419895ae82faf6774, type: 3}
---- !u!1 &826395704 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 4671517252124252539, guid: 21a7a33a7896746419895ae82faf6774,
-    type: 3}
-  m_PrefabInstance: {fileID: 826395703}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &826395705
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 826395704}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 998911a98788c9e49acc92122e3c8939, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  SceneName: 15_smerKniznica
 --- !u!1001 &2041230724
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -701,25 +659,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Entrance (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 8587328054812384186, guid: 21a7a33a7896746419895ae82faf6774,
+        type: 3}
+      propertyPath: SceneName
+      value: 21_700-600
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 4671517252124252540, guid: 21a7a33a7896746419895ae82faf6774, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 21a7a33a7896746419895ae82faf6774, type: 3}
---- !u!1 &2041230725 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 4671517252124252539, guid: 21a7a33a7896746419895ae82faf6774,
-    type: 3}
-  m_PrefabInstance: {fileID: 2041230724}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &2041230726
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2041230725}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 998911a98788c9e49acc92122e3c8939, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  SceneName: 21_700-600
