@@ -131,3 +131,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 176169813605ba84d96e5dd114ae8426, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speed: 2
+  minFov: 25
+  maxFov: 60
