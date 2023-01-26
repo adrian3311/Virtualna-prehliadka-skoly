@@ -9,6 +9,14 @@ public class pohybMysou : MonoBehaviour
 
     private Camera mainCamera;
 
+    float rotationTime = 3;
+
+    float rotationTick = 0;
+
+    float rotationSave = 0;
+
+    float rotationSpeed = 0.05f;
+
     [SerializeField]
     private float minFov = 25, maxFov = 60;
 
@@ -26,16 +34,32 @@ public class pohybMysou : MonoBehaviour
         
         if (Input.GetMouseButton(0))
         {
+            print("fdggq");
 
             transform.Rotate(Input.GetAxis("Mouse Y") * speed, -Input.GetAxis("Mouse X") * speed, 0);
             var x = transform.rotation.eulerAngles.x;
             var y = transform.rotation.eulerAngles.y;
             transform.rotation = Quaternion.Euler(x, y, 0);
 
+            rotationTick = 0;
         }
 
         var delta = Input.mouseScrollDelta;
         mainCamera.fieldOfView -= delta.y;
         mainCamera.fieldOfView = Mathf.Clamp(mainCamera.fieldOfView, minFov, maxFov);
+
+        rotationSave = transform.rotation.eulerAngles.y;
+
+        if (rotationTick >= rotationTime)
+        {
+            mainCamera.transform.rotation = Quaternion.Euler(mainCamera.transform.rotation.x, rotationSpeed + rotationSave, 0);
+            rotationSave = 0;
+            print("uwu");
+        }
+
+        rotationTick += Time.deltaTime;
+
+        print(rotationSave);
     }
+
 }
