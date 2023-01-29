@@ -24,6 +24,5 @@ private void OnMouseDown()
 
         SceneManager.LoadScene(SceneName);
 
-}
-
+    }
 }

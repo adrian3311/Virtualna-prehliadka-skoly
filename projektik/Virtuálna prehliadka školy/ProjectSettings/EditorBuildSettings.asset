@@ -152,22 +152,22 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/48_200-100.unity
     guid: c317874f7222a5142b2eaef1f69ac4c4
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/49_dielneSutek.unity
     guid: f41fbf3fef005c544a8a60786df44ea5
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/50_dielneSrenkel.unity
     guid: 21c6e84999075e349a0c432e8193230f
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/51_dielneDragun.unity
     guid: cb3f63b3a00041f4093760979cfd448a
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/52_dielnePalica.unity
     guid: 071415cd2f428494281a41f8f67631a4
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/53_dielnePalica2.unity
     guid: d701419170db0d64795955887127cf89
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/54_dielna.unity
     guid: aa6a44ca3a70959408919680a18777cc
   - enabled: 0
