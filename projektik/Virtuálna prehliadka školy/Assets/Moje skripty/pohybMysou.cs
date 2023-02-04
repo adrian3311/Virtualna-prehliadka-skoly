@@ -1,4 +1,4 @@
-using System.Collections;
+    using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -22,7 +22,25 @@ public class pohybMysou : MonoBehaviour
     void Start()
     {
 
+
         mainCamera = Camera.main;
+
+        print(Camera.main.transform.eulerAngles);
+
+        if(GameObject.Find("Manager").GetComponent<Manager>().uhol != 0)
+        {
+
+            Camera.main.transform.eulerAngles = new Vector3(0, GameObject.Find("Manager").GetComponent<Manager>().uhol, 0);
+
+
+        }
+
+        
+
+       print(Camera.main.transform.eulerAngles);
+
+        print("fsgdre");
+
 
     }
 
@@ -48,7 +66,7 @@ public class pohybMysou : MonoBehaviour
             rotationSave = 0;
         }
 
-        rotationTick += Time.deltaTime;
+        //rotationTick += Time.deltaTime;
 
         var delta = Input.mouseScrollDelta;
         mainCamera.fieldOfView -= delta.y;
