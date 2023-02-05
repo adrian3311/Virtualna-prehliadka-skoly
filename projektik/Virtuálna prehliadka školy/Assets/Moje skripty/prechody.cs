@@ -10,9 +10,10 @@ public class prechody : MonoBehaviour
     public string SceneName;
     public int cameraRotation = 0;
 
-private void OnMouseUp()
-{
+private void OnMouseDown()
+    {
         GameObject.Find("Manager").GetComponent<Manager>().uhol = cameraRotation;
+
         SceneManager.LoadScene(SceneName);
 
     }

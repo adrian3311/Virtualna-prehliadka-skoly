@@ -18,15 +18,11 @@ public class Manager : MonoBehaviour
         {
             Destroy(this.gameObject);
 
-
-
         }
 
         else {
 
             manager = this.gameObject;
-        
-        
         
         }
     

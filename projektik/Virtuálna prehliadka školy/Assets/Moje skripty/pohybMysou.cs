@@ -66,7 +66,7 @@ public class pohybMysou : MonoBehaviour
             rotationSave = 0;
         }
 
-        //rotationTick += Time.deltaTime;
+        rotationTick += Time.deltaTime;
 
         var delta = Input.mouseScrollDelta;
         mainCamera.fieldOfView -= delta.y;
