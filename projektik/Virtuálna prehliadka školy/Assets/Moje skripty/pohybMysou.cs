@@ -1,4 +1,4 @@
-    using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -18,16 +18,18 @@ public class pohybMysou : MonoBehaviour
     [SerializeField]
     private float minFov = 25, maxFov = 60;
 
+    GameObject cameraHolder;
+
     // Start is called before the first frame update
     void Start()
     {
 
-
+        cameraHolder = GameObject.Find("camera holder");
         mainCamera = Camera.main;
 
         print(Camera.main.transform.eulerAngles);
 
-        if(GameObject.Find("Manager").GetComponent<Manager>().uhol != 0)
+        if (GameObject.Find("Manager").GetComponent<Manager>().uhol != 0)
         {
 
             Camera.main.transform.eulerAngles = new Vector3(0, GameObject.Find("Manager").GetComponent<Manager>().uhol, 0);
@@ -35,11 +37,10 @@ public class pohybMysou : MonoBehaviour
 
         }
 
-        
 
-       print(Camera.main.transform.eulerAngles);
 
-        print("fsgdre");
+        print(Camera.main.transform.eulerAngles);
+
 
 
     }
@@ -47,13 +48,18 @@ public class pohybMysou : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        //cameraHolder.transform.rotation = Quaternion.Euler(cameraHolder.transform.eulerAngles.x,transform.eulerAngles.y, cameraHolder.transform.eulerAngles.z);
+
+
+
         if (Input.GetMouseButton(0))
         {
             transform.Rotate(Input.GetAxis("Mouse Y") * speed, -Input.GetAxis("Mouse X") * speed, 0);
             var x = transform.rotation.eulerAngles.x;
             var y = transform.rotation.eulerAngles.y;
-            transform.rotation = Quaternion.Euler(x, y, 0);
+            //transform.rotation = Quaternion.Euler(x, y, 0);
+            transform.localRotation = Quaternion.Euler(transform.localRotation.eulerAngles.x, transform.localRotation.eulerAngles.y, 0);
+
 
             rotationTick = 0;
         }
@@ -66,7 +72,7 @@ public class pohybMysou : MonoBehaviour
             rotationSave = 0;
         }
 
-        rotationTick += Time.deltaTime;
+        //rotationTick += Time.deltaTime;
 
         var delta = Input.mouseScrollDelta;
         mainCamera.fieldOfView -= delta.y;
