@@ -8,3 +8,4 @@ instal git: https://desktop.github.com/
 
 uprava fotiek: https://www.photopea.com
 
+https://abil3311.itch.io/skuska
